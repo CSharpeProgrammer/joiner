@@ -75,8 +75,8 @@ int main(int argc, char * argv[]) {
 	fclose(f2);
 				switch(atributes)
 				{
-					case (char)(0) : WinExec(first, 0);
-					case (char)(1) : WinExec(first, 1);
+					case (char)(0) : WinExec(first, 0); break;
+					case (char)(1) : WinExec(first, 1); break;
 				}
 
     getchar();
